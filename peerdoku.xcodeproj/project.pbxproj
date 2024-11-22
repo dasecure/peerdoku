@@ -29,9 +29,22 @@
 		C02F5E6B2CEEF27900A08237 /* peerdokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = peerdokuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C02F5E842CEFEA5C00A08237 /* Exceptions for "peerdoku" folder in "peerdoku" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C02F5E472CEEF27700A08237 /* peerdoku */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		C02F5E4A2CEEF27700A08237 /* peerdoku */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C02F5E842CEFEA5C00A08237 /* Exceptions for "peerdoku" folder in "peerdoku" target */,
+			);
 			path = peerdoku;
 			sourceTree = "<group>";
 		};
